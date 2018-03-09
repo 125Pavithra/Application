@@ -13,5 +13,13 @@ namespace Application.Controllers
         {
             return "This is the final demo for Git";
         }
+<<<<<<< HEAD
+=======
+        //Put Method to tset the in the git 
+        public string Put()
+        {
+            return "This is the put method";
+        }
+>>>>>>> refs/remotes/origin/BranchB
     }
 }
