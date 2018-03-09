@@ -9,9 +9,14 @@ namespace Application.Controllers
 {
     public class DefaultController : ApiController
     {
+        //Post Method To test in the git 
         public string post()
         {
             return "This is the final demo for Git";
+        }
+        public string Put()
+        {
+            return "This is the put method";
         }
     }
 }
